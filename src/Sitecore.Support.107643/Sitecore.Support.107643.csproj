@@ -34,8 +34,8 @@
       <HintPath>..\..\..\..\..\..\..\inetpub\wwwroot\sc81update2\Website\bin\Sitecore.Azure.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Kernel">
-      <HintPath>..\..\..\..\..\..\..\inetpub\wwwroot\sc81update2\Website\bin\Sitecore.Kernel.dll</HintPath>
+    <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Kernel.8.1.2.160302\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -57,6 +57,7 @@
     <None Include="App_Config\Include\z.Sitecore.Support.107643.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
